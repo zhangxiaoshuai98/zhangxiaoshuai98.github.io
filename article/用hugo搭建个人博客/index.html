@@ -186,6 +186,22 @@
 <p>hugo server -t +主题名 &ndash;buildDrafts（此命令要在刚才新建的myblog根目录执行）</p>
 <h4 id="创建博客">创建博客</h4>
 <p>hugo new post/文件名.md（此命令要在刚才新建的myblog根目录执行）</p>
+<h4 id="将博客部署到github通过github直接访问博客">将博客部署到GitHub(通过GitHub直接访问博客)</h4>
+<ol start="0">
+<li>提前准备
+在GitHub上建立好仓库，仓库名是以后要访问的链接，如：zhangxiaoshuai98.github.io/</li>
+<li>生成要推送到GitHub的html等文件
+<code>hugo --theme=(主题名) --baseUrl=&quot;https://zhangxiaoshuai98.github.io/&quot; --buildDrafts</code>
+此命令执行后，会出现一个public文件夹，我们只需要将这个文件夹用git推送到GitHub上即可</li>
+<li>将public文件夹内容上传到GitHub上</li>
+</ol>
+<pre><code>cd public
+git init
+git add .
+git commit -m &quot;hugo博客第一次提交&quot;
+git remote add origin https://github.com/zhangxiaoshuai98/zhangxiaoshuai98.github.io.git
+git push -u origin master
+</code></pre><p>这样我们就成功部署到了GitHub上，之后可以直接通过浏览器访问https://zhangxiaoshuai98.github.io/访问</p>
 
     
 </div>
