@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTTP on ZhangXiaoshuai</title>
+    <link>https://zhangxiaoshuai98.github.io/tags/http/</link>
+    <description>Recent content in HTTP on ZhangXiaoshuai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 06 Jan 2020 18:10:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://zhangxiaoshuai98.github.io/tags/http/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>协议问题踩坑</title>
+      <link>https://zhangxiaoshuai98.github.io/article/%E5%8D%8F%E8%AE%AE%E9%94%99%E8%AF%AF/</link>
+      <pubDate>Mon, 06 Jan 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/%E5%8D%8F%E8%AE%AE%E9%94%99%E8%AF%AF/</guid>
+      <description>协议错误  问题：
+ 在运行web项目时，出现了以下报错： Invalid character found in method name. HTTP method names must be tokens 一开始以为是浏览器编码问题，因为它提示是说请求方法名不对，查阅资料后发现，是因为url中，http写成了https，写了加密协议，所以自动对内容进行了加密，所以报错。
+ 解决：
+ 将utl地址协议改成http
+  https：是由SSL证书技术加到http上形成的加密协议。</description>
+    </item>
+    
+  </channel>
+</rss>

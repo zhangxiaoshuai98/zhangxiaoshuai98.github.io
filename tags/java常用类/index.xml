@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java常用类 on ZhangXiaoshuai</title>
+    <link>https://zhangxiaoshuai98.github.io/tags/java%E5%B8%B8%E7%94%A8%E7%B1%BB/</link>
+    <description>Recent content in Java常用类 on ZhangXiaoshuai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Oct 2019 18:10:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://zhangxiaoshuai98.github.io/tags/java%E5%B8%B8%E7%94%A8%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Java集合总结</title>
+      <link>https://zhangxiaoshuai98.github.io/article/java%E9%9B%86%E5%90%88%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Fri, 11 Oct 2019 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/java%E9%9B%86%E5%90%88%E6%80%BB%E7%BB%93/</guid>
+      <description>对于Java集合的学习，我做成了XMind，对于集合有时我们也叫容器。 </description>
+    </item>
+    
+    <item>
+      <title>Java的异常类关系梳理</title>
+      <link>https://zhangxiaoshuai98.github.io/article/java%E5%BC%82%E5%B8%B8%E5%85%B3%E7%B3%BB%E6%A2%B3%E7%90%86/</link>
+      <pubDate>Wed, 09 Oct 2019 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/java%E5%BC%82%E5%B8%B8%E5%85%B3%E7%B3%BB%E6%A2%B3%E7%90%86/</guid>
+      <description>Error 错误是JVM发送错误，一般我们也没什么办法，所以我们不关注Error。
+Exception 如图，Java中的异常分为运行时异常和非运行时异常。
+RuntimeException 运行时异常就如同其名字，写代码时不会发现，只有运行程序的时候，才会出现，常见的如空指针NullPointerException、找不到类ClassNotFoundException、数组下标超出范围IndexOutOfBoundsException等。 解决：
+ 不管 捕获（try catch） 抛出（Throw）  CheckedException 非运行时异常（有时也叫可检查异常）是必须解决的，在编写代码时就会提示需要解决，否则无法编译。这种异常通常是程序员自己定义的。如IOException、SQLException（这两个是Java开发人员定义的）。 解决：
+ 捕获（try catch） 抛出（Throw）  </description>
+    </item>
+    
+    <item>
+      <title>Java的日期、时间类</title>
+      <link>https://zhangxiaoshuai98.github.io/article/java%E7%9A%84%E6%97%B6%E9%97%B4%E6%97%A5%E6%9C%9F%E7%B1%BB/</link>
+      <pubDate>Tue, 08 Oct 2019 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/java%E7%9A%84%E6%97%B6%E9%97%B4%E6%97%A5%E6%9C%9F%E7%B1%BB/</guid>
+      <description>基础理解 在Java中，Date表示一个时间点，Calendar表示一个日期，而我们经常会将这两者来回转换。而更常见的是，用户输入字符串String，我们需要将它转化为Date存储。直接上图 图中我们可以轻易的看出：
+ Date类是String和Calendar类的中间类 DateFormat是String和Date的中间类(接口)  </description>
+    </item>
+    
+    <item>
+      <title>&lt;? extends T&gt;与&lt;? super T&gt;</title>
+      <link>https://zhangxiaoshuai98.github.io/article/extendst%E5%92%8Csupert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/extendst%E5%92%8Csupert/</guid>
+      <description>简述 &amp;lt;? extends Orange &amp;gt;存放的可能是RedOrange,GoldenOrange 等等中的特定一种，所以在没掀开篮子遮布时，我无法确定篮子放的是具体哪种水果，所以无法进行存(add)操作（因为不知道要存哪种Orange）。但是，就算是闭着眼睛从篮子里拿出一个东西，我肯定知道拿出的是Orange（不管拿出来的是RedOrange ，GoldenOrange 还是什么，反正都是Orange），所以取(get）操作可行。 &amp;lt;? super Orange&amp;gt;存放的可能是Orange，Fruit中的特定一种。所以在没掀开篮子遮布时，我无法确定篮子放的是具体哪种水果，所以无法进行取(get)操作（有可能拿出来的是Orange，有可能是Fruit）。但是，只要是往里面存放Orange类型水果，那么是绝对是可以的（因为篮子里面的是Orange或者Fruit中特定水果，那么RedOrange和GolenOrange也是属于Orange和Fruit呀）。
+总结 &amp;lt;? extends T&amp;gt;可以获取数据(get T类型)，无法存储数据(add)。 &amp;lt;? superT&amp;gt;可以存储数据(add T及T的子类)，无法获取数据(get)。 什么时候要使用&amp;lt;? extends T&amp;gt;,&amp;lt;? super T&amp;gt;呢，请记住下面这句话：
+“如果你是希望调用T方法，那么使用&amp;lt;? extends T&amp;gt;，因为你可以进行取操作（get）。“ “如果你是希望往容器里面存数据，那么使用&amp;lt;? super T&amp;gt;。”</description>
+    </item>
+    
+  </channel>
+</rss>

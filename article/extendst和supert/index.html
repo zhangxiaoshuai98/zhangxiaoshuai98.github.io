@@ -1,0 +1,348 @@
+
+  
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://zhangxiaoshuai98.github.io/">
+    <meta name="author" content="Lednerb">
+    <meta name="description" content="Bilberry Premium Theme for Hugo.">
+    <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts">
+    <meta name="generator" content="Hugo 0.74.1" />
+    <title>
+        
+           
+               &lt;? extends T&gt;与&lt;? super T&gt; &vert; ZhangXiaoshuai
+           
+        
+    </title>
+    <meta name="description" content="&lt;? extends T&gt;与&lt;? super T&gt; - Bilberry Premium Theme for Hugo.">
+    <meta itemprop="name" content="&lt;? extends T&gt;与&lt;? super T&gt;">
+    <meta itemprop="description" content="&lt;? extends T&gt;与&lt;? super T&gt; - Bilberry Premium Theme for Hugo.">
+    <meta property="og:title" content="&lt;? extends T&gt;与&lt;? super T&gt;">
+    <meta property="og:description" content="&lt;? extends T&gt;与&lt;? super T&gt; - Bilberry Premium Theme for Hugo.">
+    <meta property="og:image" content="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?size=200">
+    <meta property="og:url" content="https://zhangxiaoshuai98.github.io/article/extendst%E5%92%8Csupert/">
+    <meta property="og:site_name" content="ZhangXiaoshuai">
+    <meta property="og:type" content="article">
+
+    
+
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+    <link href="/article/extendst%E5%92%8Csupert/" rel="alternate" type="application/rss+xml" title="ZhangXiaoshuai" />
+    <link href="/article/extendst%E5%92%8Csupert/" rel="feed" type="application/rss+xml" title="ZhangXiaoshuai" />
+    
+
+    
+
+    <link rel="stylesheet" href="https://zhangxiaoshuai98.github.io/theme.css">
+
+    
+
+    
+        
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+
+    
+    <nav>
+
+    <div class="container">
+        <ul class="topnav">
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header>
+
+        <div class="container">
+            <div class="logo">
+                <a href="/" class="logo">
+                    
+                        <img src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=251289958,1860898046&amp;fm=26&amp;gp=0.jpg" alt="">
+                    
+
+                    <span class="overlay"><i class="fa fa-home"></i></span>
+                </a>
+            </div>
+            <div class="titles">
+                <h3 class="title">
+                    <a href="/">
+                        ZhangXiaoshuai
+                    </a>
+                </h3>
+
+                
+                    <span class="subtitle">Hello ! Call me ZhangXiaoshuai.</span>
+                
+            </div>
+
+            
+
+            
+                <div class="toggler">
+            
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+    </header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://zhangxiaoshuai98.github.io/article/extendst%E5%92%8Csupert/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://zhangxiaoshuai98.github.io/article/extendst%E5%92%8Csupert/">
+            &lt;? extends T&gt;与&lt;? super T&gt;
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">0001-01-01</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://zhangxiaoshuai98.github.io/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/">踩坑记录</a>
+                    
+                
+            </span>
+        
+
+        
+            <span class="author">
+                
+                
+                    <a href="https://zhangxiaoshuai98.github.io/author/%E5%BC%A0%E5%B0%8F%E5%B8%85/">张小帅</a>
+                
+            </span>
+        
+    </div>
+
+    
+        <h3 id="简述">简述</h3>
+<p><code>&lt;? extends Orange &gt;</code>存放的可能是RedOrange,GoldenOrange 等等中的特定一种，所以在没掀开篮子遮布时，我无法确定篮子放的是具体哪种水果，所以无法进行存(add)操作（因为不知道要存哪种Orange）。但是，就算是闭着眼睛从篮子里拿出一个东西，我肯定知道拿出的是Orange（不管拿出来的是RedOrange ，GoldenOrange 还是什么，反正都是Orange），所以取(get）操作可行。
+<code>&lt;? super Orange&gt;</code>存放的可能是Orange，Fruit中的特定一种。所以在没掀开篮子遮布时，我无法确定篮子放的是具体哪种水果，所以无法进行取(get)操作（有可能拿出来的是Orange，有可能是Fruit）。但是，只要是往里面存放Orange类型水果，那么是绝对是可以的（因为篮子里面的是Orange或者Fruit中特定水果，那么RedOrange和GolenOrange也是属于Orange和Fruit呀）。</p>
+<h3 id="总结">总结</h3>
+<p><code>&lt;? extends T&gt;</code>可以获取数据(get T类型)，无法存储数据(add)。
+<code>&lt;? superT&gt;</code>可以存储数据(add T及T的子类)，无法获取数据(get)。
+什么时候要使用<code>&lt;? extends T&gt;</code>,<code>&lt;? super T&gt;</code>呢，请记住下面这句话：</p>
+<p>“如果你是希望调用T方法，那么使用<code>&lt;? extends T&gt;</code>，因为你可以进行取操作（get）。“
+“如果你是希望往容器里面存数据，那么使用<code>&lt;? super T&gt;</code>。”</p>
+
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://zhangxiaoshuai98.github.io/tags/java/">Java</a>
+                    
+                
+                    
+                    
+                    <a href="https://zhangxiaoshuai98.github.io/tags/java%E5%B8%B8%E7%94%A8%E7%B1%BB/">Java常用类</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+    <script defer src="https://commento.lednerb.de/js/commento.js"></script>
+    <div id="commento"></div>
+
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/redislearn2/">Redis学习2</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/redislearn1/">Redis学习1</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">用hugo搭建个人博客</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springboot2.x%E7%89%88%E6%9C%ACmysql%E6%95%B0%E6%8D%AE%E5%BA%93%E9%97%AE%E9%A2%98/">SpringBoot2.X版本MySQL数据库问题</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springbootlearn3/">sprinboot-2.X快速上手3</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springbootlearn2/">sprinboot-2.X快速上手2</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springbootlearn1/">sprinboot-2.X快速上手1</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            <a href="/categories/"><strong>Categories</strong></a>
+            <ul>
+                
+                <li>
+                    <a href="/categories/%E5%AF%B9%E7%9F%A5%E8%AF%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%90%86%E8%A7%A3">对知识的基础理解
+                        (8)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/java%E5%88%9D%E7%BA%A7%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AC%94%E8%AE%B0">Java初级知识点笔记
+                        (4)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95">踩坑记录
+                        (3)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90">源码分析
+                        (2)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/%E5%AE%9E%E6%88%98%E8%AE%B0%E5%BD%95">实战记录
+                        (1)</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Social media</strong>
+
+                
+                <a href="https://github.com/zhangxiaoshuai98" target="_blank"><i class="fab fa-github"></i></a>
+                
+            </div>
+            
+
+            <div class="languages">
+                <strong>Other languages</strong>
+                
+                
+                <a href="https://zhangxiaoshuai98.github.io/" class="active">en</a>
+                
+                
+                
+                <a href="https://zhangxiaoshuai98.github.io/de/">de</a>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/zhangxiaoshuai98" target="_blank">
+                &copy;
+                
+                2019
+                
+                by ZhangXiaoShuai
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+
+
+    <script type="text/javascript" src="https://zhangxiaoshuai98.github.io/theme.js"></script>
+
+    
+    
+    
+
+    
+</body>
+
+</html>

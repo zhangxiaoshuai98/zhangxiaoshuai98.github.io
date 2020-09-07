@@ -1,0 +1,401 @@
+
+  
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="siteBaseUrl" content="https://zhangxiaoshuai98.github.io/">
+    <meta name="author" content="Lednerb">
+    <meta name="description" content="Bilberry Premium Theme for Hugo.">
+    <meta name="keywords" content="blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts">
+    <meta name="generator" content="Hugo 0.74.1" />
+    <title>
+        
+           
+               sprinboot-2.X快速上手1 &vert; ZhangXiaoshuai
+           
+        
+    </title>
+    <meta name="description" content="sprinboot-2.X快速上手1 - Bilberry Premium Theme for Hugo.">
+    <meta itemprop="name" content="sprinboot-2.X快速上手1">
+    <meta itemprop="description" content="sprinboot-2.X快速上手1 - Bilberry Premium Theme for Hugo.">
+    <meta property="og:title" content="sprinboot-2.X快速上手1">
+    <meta property="og:description" content="sprinboot-2.X快速上手1 - Bilberry Premium Theme for Hugo.">
+    <meta property="og:image" content="https://www.gravatar.com/avatar/d41d8cd98f00b204e9800998ecf8427e?size=200">
+    <meta property="og:url" content="https://zhangxiaoshuai98.github.io/article/springbootlearn1/">
+    <meta property="og:site_name" content="ZhangXiaoshuai">
+    <meta property="og:type" content="article">
+
+    
+
+
+    <script src="/modernizr-simple.js"></script>
+
+    
+    <link href="/article/springbootlearn1/" rel="alternate" type="application/rss+xml" title="ZhangXiaoshuai" />
+    <link href="/article/springbootlearn1/" rel="feed" type="application/rss+xml" title="ZhangXiaoshuai" />
+    
+
+    
+
+    <link rel="stylesheet" href="https://zhangxiaoshuai98.github.io/theme.css">
+
+    
+
+    
+        
+    
+</head>
+
+<body class="bilberry-hugo-theme">
+
+    
+    <nav>
+
+    <div class="container">
+        <ul class="topnav">
+            
+        </ul>
+
+        
+    </div>
+</nav>
+
+
+    
+    <header>
+
+        <div class="container">
+            <div class="logo">
+                <a href="/" class="logo">
+                    
+                        <img src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=251289958,1860898046&amp;fm=26&amp;gp=0.jpg" alt="">
+                    
+
+                    <span class="overlay"><i class="fa fa-home"></i></span>
+                </a>
+            </div>
+            <div class="titles">
+                <h3 class="title">
+                    <a href="/">
+                        ZhangXiaoshuai
+                    </a>
+                </h3>
+
+                
+                    <span class="subtitle">Hello ! Call me ZhangXiaoshuai.</span>
+                
+            </div>
+
+            
+
+            
+                <div class="toggler">
+            
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+    </header>
+
+
+    <div class="main container">
+        
+    <div class="article-wrapper u-cf single">
+        
+            <a class="bubble" href="https://zhangxiaoshuai98.github.io/article/springbootlearn1/">
+    <i class="fas fa-fw fa-pencil-alt"></i>
+</a>
+
+<article class="default article">
+    
+
+    <div class="content">
+    <h1 class="article-title">
+        <a href="https://zhangxiaoshuai98.github.io/article/springbootlearn1/">
+            sprinboot-2.X快速上手1
+        </a>
+    </h1>
+
+    <div class="meta">
+        
+            
+                <span class="date moment">2020-07-12</span>
+            
+        
+
+        
+
+        
+            <span class="categories">
+                
+                    
+                    
+                        <a href="https://zhangxiaoshuai98.github.io/categories/%E5%AF%B9%E7%9F%A5%E8%AF%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%90%86%E8%A7%A3/">对知识的基础理解</a>
+                    
+                
+            </span>
+        
+
+        
+            <span class="author">
+                
+                
+                    <a href="https://zhangxiaoshuai98.github.io/author/%E5%BC%A0%E5%B0%8F%E5%B8%85/">张小帅</a>
+                
+            </span>
+        
+    </div>
+
+    
+        <h1 id="sprinboot-2x快速上手1">sprinboot-2.X快速上手1</h1>
+<p>spring boot 的出现，改变了时代，改变了整个java后端的玩法</p>
+<hr>
+<p>初学springboot，我将会将我的学习过程以及想法记录在这个系列中，方便以后查看，也方便初学者学习。如果有不对的地方，欢迎指正。</p>
+<h3 id="创建springboot项目springboot开箱即用">创建springboot项目——springboot，开箱即用</h3>
+<p>创建springboot项目是非常简单的，我们有三种方法来创建项目</p>
+<ul>
+<li><strong>在<a href="http://spring.io/">spring官网</a>创建后下载</strong> 
+创建好的项目会以压缩包的形式下载到本地。</li>
+<li><strong>在IDEA中创建Spring Initializr项目</strong><br>
+这是最常用的方式，IDEA自动整合了spring官网创建的流程，省去了我们导入IDE的步骤，更加方便。</li>
+<li><strong>在maven项目中继承springboot</strong><br>
+在pom.xml中需要添加三个代码块：继承、依赖、插件</li>
+</ul>
+<h3 id="springboot的启动入口main">springboot的启动入口——main</h3>
+<p>当我们用前两种方式创建项目后，在默认包下会有一个类，打开它我们惊奇的发现，它里面只有一个简单的main方法。</p>
+<pre><code class="language-springboot项目的入口" data-lang="springboot项目的入口">@SpringBootApplication
+public class SpringbootDemo1Application {
+    public static void main(String[] args) {
+        SpringApplication.run(SpringbootDemo1Application.class, args);
+    }
+}
+</code></pre><p>终于！我们的项目终于不依靠外部服务器来启动了，springboot内嵌了服务器，而且是多种，默认的是Tomcat。<br>
+这里我们还需要注意2点：</p>
+<ul>
+<li>@SpringBootApplication    <br>
+这个注解的作用是什么？</li>
+<li>SpringApplication.run()<br>
+这个方法执行的内容是什么？</li>
+</ul>
+<p>这两点疑惑我们以后肯定会明白，这里先疑问保留。</p>
+<h3 id="更加简单的配置文件yaml">更加简单的配置文件——yaml</h3>
+<p>springboot出现的最大原因，就是诸多繁琐的配置文件，我们之前使用spring或者springmvc，都会配置很多xml文件，这些xml我们阅读起来非常不直观，而且每次创建项目都会有很多重复的地方，这其实是一种耦合。所以我觉得springboot的出现是必然的。 
+springboot将所有xml全部砍掉！我们再也不会配置xml了，大部分的配置全部由springboot自动为我们配置！ <br>
+当然，我们还是需要提供给spring一些东西，比如数据库连接源。而这次，springboot使用了yaml/yml或者properties作为配置文件类型。</p>
+<blockquote>
+<p><strong>yml和xml</strong>
+YAML或者说YML是什么呢？它其实就是一个更人性化的配置文件，xml更加适合机器读写，而yml更适合人读写。
+这篇博客给出了更详细的yaml介绍和基本用法https://www.cnblogs.com/sddai/p/9626392.html</p>
+</blockquote>
+<blockquote>
+<p><strong>yml和properties</strong>
+这两种配置文件都书写简单，阅读直观，而相比之下，yaml/yml更加的直观，为什么这么说呢？因为YML有缩进。</p>
+<blockquote>
+<p>在properties文件中，我们表示一个对象下的属性只能用“.”，比如：&ldquo;server.port=8080&rdquo;,这样我们看所有的配置全都是平级，配置项比较多，我们会阅读困难，而YML是下面这样：
+server:
+    port: 8080</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<p><strong>配置文件的位置</strong>
+因为springboot自动解析，所以配置文件的名字和位置都是不可随意更改的，文件名必须为：application.yml（properties同理）。那么我们可以将他放在哪个位置呢？</p>
+<blockquote>
+<ul>
+<li>项目根目录下 或 项目根目录/config下</li>
+<li>classpath:下 或 classpath:config下</li>
+</ul>
+</blockquote>
+<p>在我进行测试时发现，如果直接放到项目根或者根/config下，那么配置文件不会被编译输出到target文件夹下，但是它依然可以被解析，这是为什么呢？我查阅资料后依然没有明白，这里先进行疑问保留。</p>
+</blockquote>
+<hr>
+<h4 id="保留疑问">保留疑问：</h4>
+<ol>
+<li>@SpringBootApplication这个注解的作用是什么？</li>
+<li>SpringApplication.run() 方法执行了什么内容</li>
+<li>配置文件不被编译到target目录下，也可以执行是为什么？</li>
+</ol>
+
+    
+</div>
+
+    
+<div class="footer">
+
+
+    
+        <div class="tags">
+            <i class="fa fa-tags"></i>
+            <div class="links">
+                
+                    
+                    
+                    <a href="https://zhangxiaoshuai98.github.io/tags/springboot/">SpringBoot</a>
+                    
+                
+            </div>
+        </div>
+    
+
+    
+</div>
+
+</article>
+
+        
+    </div>
+
+    
+        <div id="comments-container">
+            
+            
+    <script defer src="https://commento.lednerb.de/js/commento.js"></script>
+    <div id="commento"></div>
+
+
+        </div>
+    
+
+    </div>
+
+    
+<footer>
+    <div class="container">
+
+        
+        <div class="recent-posts">
+            <strong>Latest posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/redislearn2/">Redis学习2</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/redislearn1/">Redis学习1</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">用hugo搭建个人博客</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springboot2.x%E7%89%88%E6%9C%ACmysql%E6%95%B0%E6%8D%AE%E5%BA%93%E9%97%AE%E9%A2%98/">SpringBoot2.X版本MySQL数据库问题</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springbootlearn3/">sprinboot-2.X快速上手3</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springbootlearn2/">sprinboot-2.X快速上手2</a>
+                    </li>
+                
+                    <li>
+                        <a href="https://zhangxiaoshuai98.github.io/article/springbootlearn1/">sprinboot-2.X快速上手1</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        
+        <div class="categories">
+            <a href="/categories/"><strong>Categories</strong></a>
+            <ul>
+                
+                <li>
+                    <a href="/categories/%E5%AF%B9%E7%9F%A5%E8%AF%86%E7%9A%84%E5%9F%BA%E7%A1%80%E7%90%86%E8%A7%A3">对知识的基础理解
+                        (8)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/java%E5%88%9D%E7%BA%A7%E7%9F%A5%E8%AF%86%E7%82%B9%E7%AC%94%E8%AE%B0">Java初级知识点笔记
+                        (4)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95">踩坑记录
+                        (3)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90">源码分析
+                        (2)</a>
+                </li>
+                
+                <li>
+                    <a href="/categories/%E5%AE%9E%E6%88%98%E8%AE%B0%E5%BD%95">实战记录
+                        (1)</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="right">
+            
+            <div class="external-profiles">
+                <strong>Social media</strong>
+
+                
+                <a href="https://github.com/zhangxiaoshuai98" target="_blank"><i class="fab fa-github"></i></a>
+                
+            </div>
+            
+
+            <div class="languages">
+                <strong>Other languages</strong>
+                
+                
+                <a href="https://zhangxiaoshuai98.github.io/" class="active">en</a>
+                
+                
+                
+                <a href="https://zhangxiaoshuai98.github.io/de/">de</a>
+                
+                
+            </div>
+            
+        </div>
+    </div>
+</footer>
+
+
+<div class="credits">
+    <div class="container">
+        <div class="copyright">
+            <a href="https://github.com/zhangxiaoshuai98" target="_blank">
+                &copy;
+                
+                2019
+                
+                by ZhangXiaoShuai
+            </a>
+            
+        </div>
+        <div class="author">
+            <a href="https://github.com/Lednerb/bilberry-hugo-theme"
+                target="_blank">Bilberry Hugo Theme</a>
+        </div>
+    </div>
+</div>
+
+
+    
+
+    
+
+
+    <script type="text/javascript" src="https://zhangxiaoshuai98.github.io/theme.js"></script>
+
+    
+    
+    
+
+    
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on ZhangXiaoshuai</title>
+    <link>https://zhangxiaoshuai98.github.io/tags/</link>
+    <description>Recent content in Tags on ZhangXiaoshuai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Sep 2020 18:10:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://zhangxiaoshuai98.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Redis</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/redis/</link>
+      <pubDate>Thu, 03 Sep 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/go/</link>
+      <pubDate>Tue, 28 Jul 2020 18:10:14 +0900</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>个人博客</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 28 Jul 2020 18:10:14 +0900</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpringBoot</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/springboot/</link>
+      <pubDate>Mon, 20 Jul 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/springboot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mybatis</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/mybatis/</link>
+      <pubDate>Sun, 07 Jun 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/mybatis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>源码</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/%E6%BA%90%E7%A0%81/</link>
+      <pubDate>Sun, 07 Jun 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/%E6%BA%90%E7%A0%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tomcat</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/tomcat/</link>
+      <pubDate>Wed, 06 May 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/tomcat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTTP</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/http/</link>
+      <pubDate>Mon, 06 Jan 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>协议</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/%E5%8D%8F%E8%AE%AE/</link>
+      <pubDate>Mon, 06 Jan 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/%E5%8D%8F%E8%AE%AE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>from表单</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/from%E8%A1%A8%E5%8D%95/</link>
+      <pubDate>Fri, 15 Nov 2019 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/from%E8%A1%A8%E5%8D%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/html/</link>
+      <pubDate>Fri, 15 Nov 2019 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/java/</link>
+      <pubDate>Fri, 11 Oct 2019 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java常用类</title>
+      <link>https://zhangxiaoshuai98.github.io/tags/java%E5%B8%B8%E7%94%A8%E7%B1%BB/</link>
+      <pubDate>Fri, 11 Oct 2019 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/tags/java%E5%B8%B8%E7%94%A8%E7%B1%BB/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

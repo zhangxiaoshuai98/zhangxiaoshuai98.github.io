@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Redis on ZhangXiaoshuai</title>
+    <link>https://zhangxiaoshuai98.github.io/tags/redis/</link>
+    <description>Recent content in Redis on ZhangXiaoshuai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Sep 2020 18:10:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://zhangxiaoshuai98.github.io/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Redis学习2</title>
+      <link>https://zhangxiaoshuai98.github.io/article/redislearn2/</link>
+      <pubDate>Thu, 03 Sep 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/redislearn2/</guid>
+      <description>Redis的多数据库、Redis的事务、Redis的数据持久化</description>
+    </item>
+    
+    <item>
+      <title>Redis学习1</title>
+      <link>https://zhangxiaoshuai98.github.io/article/redislearn1/</link>
+      <pubDate>Tue, 01 Sep 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/redislearn1/</guid>
+      <description>对Redis的学习我做成了XMind树状图，点击详情查看</description>
+    </item>
+    
+  </channel>
+</rss>

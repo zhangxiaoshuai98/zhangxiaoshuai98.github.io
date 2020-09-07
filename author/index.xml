@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Author on ZhangXiaoshuai</title>
+    <link>https://zhangxiaoshuai98.github.io/author/</link>
+    <description>Recent content in Author on ZhangXiaoshuai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Sep 2020 18:10:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://zhangxiaoshuai98.github.io/author/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>张小帅</title>
+      <link>https://zhangxiaoshuai98.github.io/author/%E5%BC%A0%E5%B0%8F%E5%B8%85/</link>
+      <pubDate>Thu, 03 Sep 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/author/%E5%BC%A0%E5%B0%8F%E5%B8%85/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

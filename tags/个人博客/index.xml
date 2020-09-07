@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人博客 on ZhangXiaoshuai</title>
+    <link>https://zhangxiaoshuai98.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 个人博客 on ZhangXiaoshuai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 28 Jul 2020 18:10:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://zhangxiaoshuai98.github.io/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>用hugo搭建个人博客</title>
+      <link>https://zhangxiaoshuai98.github.io/article/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Tue, 28 Jul 2020 18:10:14 +0900</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>真正的极客必然拥有自己的博客，hugo是一个用go语言编写的程序，搭建起来极为简单。</description>
+    </item>
+    
+  </channel>
+</rss>

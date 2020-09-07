@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SpringBoot on ZhangXiaoshuai</title>
+    <link>https://zhangxiaoshuai98.github.io/tags/springboot/</link>
+    <description>Recent content in SpringBoot on ZhangXiaoshuai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 20 Jul 2020 18:10:14 +0100</lastBuildDate>
+    
+	<atom:link href="https://zhangxiaoshuai98.github.io/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SpringBoot2.X版本MySQL数据库问题</title>
+      <link>https://zhangxiaoshuai98.github.io/article/springboot2.x%E7%89%88%E6%9C%ACmysql%E6%95%B0%E6%8D%AE%E5%BA%93%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 20 Jul 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/springboot2.x%E7%89%88%E6%9C%ACmysql%E6%95%B0%E6%8D%AE%E5%BA%93%E9%97%AE%E9%A2%98/</guid>
+      <description>MySQL驱动包6.0之后的配置有所变化，如果还是按照6.0以前的方式配置，就会出现错误。</description>
+    </item>
+    
+    <item>
+      <title>sprinboot-2.X快速上手3</title>
+      <link>https://zhangxiaoshuai98.github.io/article/springbootlearn3/</link>
+      <pubDate>Fri, 17 Jul 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/springbootlearn3/</guid>
+      <description>本篇是springboot2.x快速上手的第三篇记录,GOGOGO！。</description>
+    </item>
+    
+    <item>
+      <title>sprinboot-2.X快速上手2</title>
+      <link>https://zhangxiaoshuai98.github.io/article/springbootlearn2/</link>
+      <pubDate>Mon, 13 Jul 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/springbootlearn2/</guid>
+      <description>本篇是springboot2.x快速上手的第二篇记录，继续学习，继续前进。</description>
+    </item>
+    
+    <item>
+      <title>sprinboot-2.X快速上手1</title>
+      <link>https://zhangxiaoshuai98.github.io/article/springbootlearn1/</link>
+      <pubDate>Sun, 12 Jul 2020 18:10:14 +0100</pubDate>
+      
+      <guid>https://zhangxiaoshuai98.github.io/article/springbootlearn1/</guid>
+      <description>初学springboot，我将会将我的学习过程以及想法记录在这个系列中，方便以后查看，也方便初学者学习。如果有不对的地方，欢迎指正。</description>
+    </item>
+    
+  </channel>
+</rss>
